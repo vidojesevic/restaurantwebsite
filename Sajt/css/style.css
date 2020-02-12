@@ -242,14 +242,14 @@
     font-family: 'Sriracha', cursive;
     width: 100%;
     padding-top: 30px;
-    height: 650px;
+    height: 680px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius:15px 45px 15px 45px;
 }
 #forma1 {
     padding-top: 30px;
     float: left;
-    width: 45%;
+    width: 50%;
 }
 #forma1 {
     padding-top: 30px;
@@ -274,10 +274,11 @@
     color: darkblue;
 }
 #informacije {
-    align-content: center;
+    text-align: center;
     padding-top: 30px;
     float: right;
-    width: 45%;
+    width: 50%;
+    height: 600px;
 }
 #informacije h4 {
     padding-top: 10px;
@@ -292,5 +293,10 @@
     font-size: 18px;
 }
 #lokacija {
+    width: 90%;
+    height: 250px;
     border-radius:15px 15px 15px 15px;
+}
+#ram {
+    display: flex;
 }
