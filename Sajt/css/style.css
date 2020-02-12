@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'myFirstFont';
+    src: url("sansation_bold.woff");
+    font-weight: bold;
+  }
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.cistac {
+    clear: both;
+}
+#heder {
+    width: 100%;
+    height: 80px;
+    background-color: azure;
+    box-shadow: 3px 3px 5px #888888;
+    position: fixed;
+}
+#logo {
+    float: left;
+    width: 30%;
+}
+#logo img {
+    height: 80px;
+}
+#nav {
+    float: right;
+    width: 70%;
+}
+#nav ul {
+    list-style: none;
+    float: left;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+#nav ul li {
+    margin-right: 50px;
+}
+.active a {
+    color: firebrick;
+    border-bottom: 6px dotted firebrick;
+}
+#nav ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: darkblue;
+    font-weight: bold;
+}
+#nav ul li a:hover{
+    color: firebrick;
+    border-bottom: 6px dotted firebrick;
+}
+.okvir {
+    width: 80%;    
+    margin: 0px auto;
+}
+/* INDEX */
+#glavno {
+    font-family: 'Sriracha', cursive;
+}
+#main-glavno {
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/bistro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+}
+#main-glavno h1 {
+    height: 300px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    background-attachment: fixed;
+    color: saddlebrown;
+    padding-top: 130px;
+    font-size: 50px;
+}
+#o-nama {
+    height: 400px;
+    background-color: rgb(240, 231, 217);
+    padding-top: 50px;
+}
+#o-nama h2 {
+    font-size: 35px;
+    color: saddlebrown;
+    text-align: center;
+}
+#o-nama p {
+    text-align: center;
+    padding-top: 30px;
+    color: saddlebrown;
+    font-size: 18px;
+}
+#jelovnik {
+    width: 100%;
+    height: 1050px;
+    background-color: saddlebrown;
+}
+#jelovnik h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(240, 231, 217);
+}
+#jelovnik h3 {
+    font-size: 25px;
+    padding: 50px;
+    width: 180px;
+    color: rgb(240, 231, 217);
+}
+.jelofnik {
+    padding-top: 50px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.jelofnik article {
+    width: 30%;
+    height: 250px;
+}
+.jelofnik img {
+    width: 250px;
+    height: 165px;
+    border-radius:15px 30px 15px 30px;
+    box-shadow: 15px 15px 10px #333333;
+}
+.jelofnik h4 {
+    text-align: justify;
+    color:  rgb(240, 231, 217);
+}
+/* FOOTER */
+#footer {
+    height: 80px;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+}
+#footer p {
+    color: snow;
+    font-size: 20pt;
+    text-align: center;
+    padding-top: 25px;
+}
+#fdesno {
+    float: right;
+    width: 30%;
+}
+#fdesno ul {
+    list-style-type: none;
+    float: right;
+    height: 80px;
+    padding: 25px;
+    display: flex;
+}
+#flevo {
+    float: left;
+    width: 30%;
+}
+#flevo ul {
+    list-style-type: none;
+    height: 80px;
+    padding: 25px;
+    display: flex;
+}
+.ikona { 
+    padding-right: 30px;
+    font-size:25px; 
+    color: royalblue;
+}
+#sredina {
+    display: block;
+    width: 40%;
+}
+.xml { 
+    padding-left: 30px;
+    font-size:25px; 
+    color: coral;
+}
+/* AUTOR */
+#autor {
+    padding-top: 100px;
+    font-family: 'Sriracha', cursive;
+    width: 100%;
+    height: 700px;
+    background-image: url("../img/bistro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+}
+#bios {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px 150px 30px 150px;
+    height: 450px;
+    width: 100%;
+    display: inline-flex;
+}
+#slika {
+    padding: 50px;
+    float: left;
+    width: 40%;
+}
+#slika img {
+    width: 280px;
+    height: 350px;
+    border-radius:15% 30% 15% 30%;
+    box-shadow: 15px 15px 10px #333333;
+}
+#bio {
+    padding-top: 50px;
+    float: right;
+    width: 50%;
+}
+#bio h1 {
+    text-align: center;
+}
+#bio p {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+#bio .ikona {
+    font-size:30px; 
+    color: darkblue; 
+}
+/* KONTAKT */
+#kontakt {
+    width: 100%;
+    height: 800px;
+    padding-top: 100px;
+    background-image: url("../img/bistro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+#pravougaonik {
+    font-family: 'Sriracha', cursive;
+    width: 100%;
+    padding-top: 30px;
+    height: 650px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius:15px 45px 15px 45px;
+}
+#forma1 {
+    padding-top: 30px;
+    float: left;
+    width: 45%;
+}
+#forma1 {
+    padding-top: 30px;
+}
+#forma tr td {
+    padding-bottom: 10px;
+    margin: 12px auto;
+    color: darkgreen;
+    font-size: 20px;
+}
+#forma1 form input, #forma1 form select {
+    font-size: 20px;
+}
+#kontakt h1 {
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+}
+#kontakt h2 {
+    text-align: center;
+    font-size: 25px;
+    color: darkblue;
+}
+#informacije {
+    align-content: center;
+    padding-top: 30px;
+    float: right;
+    width: 45%;
+}
+#informacije h4 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+#informacije p {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: darkgreen;
+    font-size: 18px;
+}
+#lokacija {
+    border-radius:15px 15px 15px 15px;
+}
