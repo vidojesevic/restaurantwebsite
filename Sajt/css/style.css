@@ -194,7 +194,7 @@
     padding-top: 150px;
 }
 #bios {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 30px 150px 30px 150px;
     height: 450px;
     width: 100%;
@@ -251,8 +251,9 @@
     float: left;
     width: 50%;
 }
-#forma1 {
+#forma {
     padding-top: 30px;
+    width: 100%;
 }
 #forma tr td {
     padding-bottom: 10px;
